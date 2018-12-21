@@ -1,0 +1,13 @@
+{
+	"liferayDir": "/home/gustavo/liferay-core/bundles",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\/.*\\.js$",
+				"use": "babel-loader"
+			}		
+		]
+	},
+	"verbose": true,
+  "dumb-report" : true
+}

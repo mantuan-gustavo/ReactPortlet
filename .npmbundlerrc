@@ -1,0 +1,12 @@
+{
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+    	"js-extender": "1.1.0",
+			"settings": "settings.json",
+			"web-context": "/ReactPortlet"
+    }
+	},
+	"dump-report": true,
+	 "verbose": true
+}

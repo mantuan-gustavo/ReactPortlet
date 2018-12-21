@@ -1,0 +1,101 @@
+{  
+  "selectField": {
+  "type": "select",
+  "title": "aaaa",
+  "helpMessage": "aaa",
+  "label": "Select field",
+  "required": true,
+  "multiple": true,
+  "showEmptyOption": true,
+  "options": [
+    {"label": "ABC1", "value": "CBA1"}, 
+    {"label": "ABC2", "value": "CBA2"},
+    {"label": "ABC3", "value": "CBA3"},
+    {"label": "ABC4", "value": "CBA4"}
+  ]
+},
+"textField": {
+  "title": "hermanito",
+  "label": "Text Field",
+  "prefix": "prefix",			
+  "type": "text", 
+  "inlineField": true,
+  "placeholder": "Bota",		
+  "required": true
+},
+"textAreaField" : {			
+  "type": "textarea",
+  "inlineField" : false,
+  "placeholder": "Bota 2",
+  "label": "textarea",
+  "required": true,
+  "showRequiredLabel": true
+},
+"passwordField" : {
+  "type": "password",
+  "prefix": "password",
+  "suffix": "password",
+  "label": "Password 2",
+  "helpMessage": "password",
+  "required": true,
+  "showRequiredLabel": true
+},
+"radioField" : {
+  "type": "radio",
+  "inlineLabel": "right",
+  "label": "Radio 2",
+  "required": true,
+  "options": [
+    {"label": "ABC1", "value": "CBA1"}, 
+    {"label": "ABC2", "value": "CBA2"},
+    {"label": "ABC3", "value": "CBA3"},
+    {"label": "ABC4", "value": "CBA4"}
+  ]
+},
+"checkBoxField" : {
+  "type": "checkbox",
+  "inlineLabel": "left",
+  "label": "Checkbox a2",
+  "helpMessage": "checkbox",
+  "inlineField": true,
+  "required": true,
+  "options": [
+    {"label": "ABC1", "value": "CBA11"}, 
+    {"label": "ABC2", "value": "CBA22"},
+    {"label": "ABC3", "value": "CBA33"},
+    {"label": "ABC4", "value": "CBA44"}
+  ]
+},
+"colorField" : {
+  "type": "color",
+  "label": "Color",
+  "helpMessage": "color",
+  "required": true
+},
+"rangeField" : {
+  "type": "range",
+  "label": "A range",
+  "helpMessage": "range",
+  "required": false
+},	
+"numberField" : {
+  "type": "number",
+  "label": "A Number",
+  "helpMessage": "number",
+  "required": false
+},
+"toggleSwitchField" : {
+  "type": "toggle-switch",
+  "label": "A toggle",
+  "helpMessage": "toggle-switch",
+  "required": false
+},
+"timeZoneField" : {
+  "title": "pipoca doce",
+  "type": "date",
+  "placeholder": "Bota 2",
+  "label": "Date",
+  "required": false,
+  "showRequiredLabel": true
+}
+}				
